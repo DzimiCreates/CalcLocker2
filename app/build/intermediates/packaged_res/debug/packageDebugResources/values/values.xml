@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">#6750A4</color>
+    <string name="accessibility_description">Optional lock enforcement. Only checks which app is in the foreground so the locked app can be blocked when opened directly. It does not read screen content and sends nothing anywhere.</string>
+    <string name="app_name">Calculator</string>
+    <style name="Theme.CalcLocker" parent="android:Theme.Material.Light.NoActionBar"/>
+</resources>
