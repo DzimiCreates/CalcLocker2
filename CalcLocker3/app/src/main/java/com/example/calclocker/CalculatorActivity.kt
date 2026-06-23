@@ -141,7 +141,7 @@ private fun CalculatorScreen(prefs: LockerPrefs, onOpenSettings: () -> Unit) {
                     // Code is good: turn the digits green for a moment, then open the app.
                     codeAccepted = true
                     scope.launch {
-                        delay(550)
+                        delay(1050)
                         unlockAndLaunch()
                     }
                 } else {
